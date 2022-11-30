@@ -1,0 +1,64 @@
+<?php	
+	$servidor="localhost"
+	$usuario="invitado"
+	$clave="Abc123.*"
+	$basededatos="rfef"
+	
+	$enlace = mysql_connect($servidor, $usuario, $clave, $basededatos);
+	
+	if(!$enlace){
+		echo "error en la conexión en el servidor"
+	}
+?>
+
+/*Para registrarse
+Lo que está en rojo son lo que están en name, registrarse es un submit y el resto 
+es el name del input.*/
+
+<?php
+	if(isset($_POST['registrarse'])){
+	$nombre = $_POST["nombre"]
+	$correo =
+	$id = rand(1,99)
+	/*Genera nº aleatorio*/
+	$insertardatos = "insert into ... values ('$nombre', '$correo', '$id')";
+	
+	$ejecutarinstrucciones = mysqli_query($enlace, $insertardatos)
+	
+	if (!$ejecutarinstrucciones){
+		echo "Error en la linea de sql"
+	}
+	
+	}
+?>
+
+
+/*Para mostrar datos en una tabla, se tiene que colocar entre la tr inicial y el fin de table*/
+<?php
+	$consulta = "select * from datos";
+	$ejecutarConsulta = mysqli_query($enlace, $consulta);
+	$verfilas = mysqli_num_rows($ejecutarConsulta);
+	$fila = mysqli_fetch_array($ejecutarConsulta);
+	
+	if(!$ejecutarConsulta){
+		echo "error en la consulta"
+	}else{
+		if($verfilas<1){
+			echo "<tr><td>Sin registros</td></tr>"
+		}
+		else{
+			for ($i=0; $i<=$fila; $i++){
+/*Se ponen las filas htpl por cada fila de datos que devuelva*/
+			echo'
+				<tr>
+					<td>".$fila[3]."</td>
+					<td>".$fila[2]."</td>
+					<td>".$fila[1]."</td>
+					<td>".$fila[0]."</td>
+				</tr>
+				';
+				$fila = mysqli_fetch_array($ejecutarConsulta);
+			}
+		}
+	}
+?>

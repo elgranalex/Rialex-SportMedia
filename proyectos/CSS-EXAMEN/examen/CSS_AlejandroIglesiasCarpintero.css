@@ -1,0 +1,161 @@
+
+body{
+	background-image:url(./imagenes/gota.png);
+	background-repeat:repeat-y;
+	margin-left:175px;
+	margin-right:200px;
+	font-size:20px;
+	font-family:arial;
+	text-align:justify;
+	line-height:150%;
+	background-color:#FCDEF0;
+}
+
+h1:nth-child(1){
+	font-size:40px;
+	font-family:Comic Sans MS;
+	text-transform:uppercase;
+	text-decoration:underline;
+	text-align:center;
+	margin:50px auto;
+}
+
+
+p{
+	text-indent:40px;
+	margin:50px 0px;
+}
+
+a{
+	font-weight:bold;
+	color:#781C1C;
+	text-decoration:none;
+	
+}
+
+a:hover{
+	background-color:rgb(255,255,255);
+	margin-left:40px;
+	
+}
+
+img{
+	float:left;
+	padding-right:50px;
+	
+}
+
+ol{
+	clear:both;
+	padding-top:50px;
+}
+
+
+dl{
+	
+	
+}
+
+dt{
+	margin:30px 0px;
+}
+
+dd{
+	border:red solid 3px;
+	padding:20px;
+	border-radius:10px;
+}
+
+/*Compatibilidad*/
+
+div{
+	border:red solid 3px;
+	padding:30px;
+	border-radius:10px;
+	margin-bottom:30px;
+}
+
+div input, div label{
+	display:inline;
+}
+
+li img{
+	float:right;
+	padding:30px;
+}
+
+table{
+	border-collapse:collapse;
+	margin:10px auto;
+}
+
+td{
+	border:#FF0000 solid 2px;
+	border-collapse:collapse;
+}
+
+td:hover{
+	background-color:rgba(255,255,0,0.3);
+}
+
+th{
+	border:red solid 4px;
+	border-collapse:collapse;
+}
+
+caption{
+	color:#781C1C
+}
+
+td,th{
+	text-align:center;
+	padding:15px;
+}
+
+/*Formulario*/
+
+form{
+	border:#FF0000 solid 2px;
+	border-radius:10px;
+	padding:30px;
+	font-family:Comic Sans MS;
+	width:500px;
+	margin:0px auto;
+	
+}
+
+fieldset{
+	display:block;
+	border:#FF0000 solid 2px;
+	border-radius:10px;
+	padding-bottom:30px;
+	margin-bottom:30px;
+}
+
+.1{
+	border:#000 solid 2px;
+	border-radius:10px;
+	text-align:center;
+}
+
+input{
+	display:block;
+}
+
+label{
+	display:block;
+}
+
+legend{
+	text-align:center;
+	text-transform:uppercase;
+	padding:10px;
+	
+}
+
+select{
+	margin:20px 180px;
+	
+}
+
+

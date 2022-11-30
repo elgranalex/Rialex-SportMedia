@@ -1,0 +1,28 @@
+Practica 52
+access-list 28 deny 192.168.14.0 0.0.0.255-
+access-list 27 permit 192.168.14.0 0.0.0.254- permite las pares 
+
+Practica 53
+
+Esquema y IPs
+Indicamos en los router la rutas "que conocen" en el RP
+Bloquear acceso del equipo dos a fuera de la red 3
+Router(config)#access-list 12 permit 192.168.3.3
+Router(config-if)#ip access-group 12 in
+
+Standard IP access list 12
+    10 permit host 192.168.3.3 (2 match(es))
+
+
+Practica 54
+
+4-No responde
+5-	dns-53
+	http-80
+	https-443
+	ftp-21,22
+	imap-143	
+	telnet-23
+	snmpo-161,162
+
+CC C,=,

@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Formulario</title>
+		<link rel="stylesheet" type="text/css" href="./CSS_AlejandroIglesiasCarpintero.css" media="screen" />
+	</head>
+	<body>
+	<h1>Evalúate...</h1>
+	<form action="https://www.iesdeteis.gal/2020/LMSXI/ASIR/examen.php" method="get">
+		<fieldset>
+			<legend>Datos personales</legend>
+			<label for="nombre">Nombre</label>
+			<input class="1" type="text" id="nombre" name="nombre" value="" /> 
+			<label for="cp">CP</label> 
+			<input class="1" type="text" id="cp" name="cp" value="" size="5" maxlength="5" />		
+		</fieldset>
+		
+		<fieldset class="hola">
+			<legend>Aprendiste...</legend>
+			<label for="grupo">Elige grupos sanguíneos existentes</label>
+			<select id="grupo" name="grupo" size="4" multiple="multiple">
+				<option value="A" selected="selected" >Grupo A</option>
+				<option value="B">Grupo B</option>
+				<option value="C">Grupo C</option>
+				<option value="AB">Grupo AB</option>			
+				<option value="AC">Grupo AC</option>
+			</select>
+			
+			<p>Elige respuesta correcta:</p>
+			
+			<div>
+			<input type="radio" id="r1" name="respuesta" value="respuesta1" checked="checked"/><label for="r1">Grupo A --> dona sólo grupo A</label>
+			</div>
+			
+			<div>
+			<input type="radio" id="r2" name="respuesta" value="respuesta2"/><label for="r2">Grupo A --> dona grupos A, AB</label>
+			</div>
+				
+			<div>
+			<input type="radio" id="r3" name="respuesta" value="respuesta3"/><label for="r3">Grupo A --> donante universal</label>
+</div>			
+		</fieldset>	
+		
+		<input class="1" type="submit" name="enviar" value="Evaluar"/> 		
+	</form>
+
+</body>
+</html>

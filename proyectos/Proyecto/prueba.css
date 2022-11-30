@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: url("../img/cesped.jpg") repeat-x scroll 0 0;
+    text-align: center;
+    padding:30px
+  }
+header img.logo {
+  float: left;
+  height: 100px;
+  vertical-align: top;
+}
+header img.letras {
+  margin: auto;
+  vertical-align: top;
+  height: 8vw;
+}
+header img.user {
+  vertical-align: top;
+  height: 8vw;
+  float: right;
+}
+
+
+
+
+
+
+body div.tienda{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  max-width: 1200px;
+  font-family: 'Lato';
+  color: #333;
+}
+
+img{
+  max-width: 100%;
+}
+
+body div.tienda{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  max-width: 1200px;
+  font-family: 'Lato';
+  color: #333;
+}
+
+
+
+
+
+.container-items{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.item{
+border-radius: 10px;
+
+}
+
+.item:hover{
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item:hover img{
+transform: scale(1.2);
+}
+
+.item img{
+width: 100%;
+height: 300px;
+object-fit: cover;
+border-radius: 10px 10px 0 0;
+transition: all .5s;
+}
+
+.item figure{
+overflow: hidden;
+}
+
+.info-product{
+padding: 15px 30px;
+line-height: 2;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.price{
+font-size: 18px;
+font-weight: 900;
+}
+
+.info-product button{
+border: none;
+background: none;
+background-color: #000;
+color: #fff;
+padding: 15px 10px;
+cursor: pointer;
+}
+
+
+/*Foter*/
+
+.fixed_footer{
+  width: 100%;
+  background: #111;
+  z-index: -100;
+  padding: 30px 0px;
+  margin-top: 60px;
+}
+  .fixed_footer p{
+  color: #696969;
+  column-count: 2;
+  column-gap: 20px;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 30px;
+}
+
+
+
+
+
+
+.filtro h2 {
+  font-size: 16px;
+  color: #001F3F;
+  margin-bottom: 20px;
+  margin-left: 20px; 
+}
+
+.filtro > div {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc; 
+}
+
+.filtro .checkbox label {
+  display: inline-block;
+  cursor: pointer;
+  color: #FF4136;
+  position: relative;
+  padding: 5px 15px 5px 51px;
+  font-size: 1em;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+}
+
+.filtro .checkbox label:hover {
+  background: rgba(255, 65, 54, 0.1); 
+}
+
+.filtro .checkbox label:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 15px;
+  border-radius: 50%;
+  background: none;
+  border: 3px solid #FF4136; 
+}
+
+.filtro .checkbox label:before {
+  border-radius: 3px; 
+}
+
+.filtro .checkbox input[type="checkbox"] {
+  display: none; 
+}
+
+.filtro .checkbox input[type="checkbox"]:checked + label:before {
+  display: none; 
+}
+
+.filtro .checkbox input[type="checkbox"]:checked + label {
+  background: #FF4136;
+  color: #fff;
+  padding: 5px 15px; 
+}

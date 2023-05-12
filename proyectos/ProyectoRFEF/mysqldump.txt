@@ -1,1 +1,0 @@
-mysqldump --all-databases --triggers --User=root --password=abcxyz123. rfef > C:\backup\copiarfef.sql

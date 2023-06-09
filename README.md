@@ -10,7 +10,7 @@ Llevamos 5 años en el sector ayudando a las empresas en su transformación digi
 
 ¿ Qué ofrecemos que sea diferente ? Pues sencillamente la cercanía y transparencia. Cualquier empresa pequeña o mediana confía en nosotros para darles soluciones porque saben que vamos a estar disponibles para ellos 24/7 para solucionar sus problemas, pero ante todo, nuestros profesionales cuentan con los conocimientos y experiencia que permiten crear soluciones a prueba de fallos. Nuestro compromiso, fiabilidad y disponibilidad.
 
-Somos un equipo de 15 profesionales que se complementan muy bien unos a otros, aportando expertise en diferentes tecnologías para ampliar horizontes.
+Somos un equipo de 13 profesionales que se complementan muy bien unos a otros, aportando expertise en diferentes tecnologías para ampliar horizontes.
 
 Este repositorio incluye todo el contenido necesario para el entendimiento completo y seguimiento de un proyecto de nuestra empresa.
 

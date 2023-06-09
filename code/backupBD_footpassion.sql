@@ -1,11 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.2.0
--- https://www.phpmyadmin.net/
---
--- Servidor: 127.0.0.1
--- Tiempo de generación: 30-08-2022 a las 17:04:28
--- Versión del servidor: 8.0.30
--- Versión de PHP: 8.1.6
 drop database if exists footpassion;
 create database footpassion;
 use footpassion;

@@ -14,3 +14,8 @@ Somos un equipo de 13 profesionales que se complementan muy bien unos a otros, a
 
 Este repositorio incluye todo el contenido necesario para el entendimiento completo y seguimiento de un proyecto de nuestra empresa.
 
+# El repositorio
+
+- En Doc_Tecnico_Rialex-Sportmedia.pdf podrás encontrar todas las especificas del proyecto
+- En la carpeta de repo_priv, se encuentran los archivos que conformarían el repositorio con el que se trabajó.
+
